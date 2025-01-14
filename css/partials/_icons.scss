@@ -1,0 +1,174 @@
+.list-card{
+    
+
+    li{
+        margin-bottom: 50px;
+    }
+}
+
+.list-app{
+    
+    li{
+        margin-bottom: 10px;
+    }
+}
+
+
+
+.list-item{
+    list-style: none;
+    position: relative;
+   
+
+    padding: 8px 8px 8px 72px;
+    margin-bottom: 48px;
+
+    &:after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 64px;
+        height: 64px;
+        display: block;
+        
+      
+    }
+}
+
+.bg-icon-limit{
+    &::after{
+        background-image: url('../svg/icon-ajustedelimite.svg');
+        background-size: cover;
+        cursor: pointer;
+        transition: .5s ease;
+    }
+    &:hover{
+        &::after{
+            transform: scale(1.05);
+        }
+    }
+}
+
+.bg-icon-card{
+   
+        &::after{
+            background-image: url('../svg/icon-card.svg');
+            background-size: cover;
+            cursor: pointer;
+            
+           
+            transition: .5s ease;
+        }
+        &:hover{
+            &::after{
+                transform: scale(1.05);
+            }
+        }
+   
+}
+
+.bg-icon-contactless{
+    &::after{
+        background-image: url('../svg/icon-contactless.svg');
+        background-size: cover;
+        cursor: pointer;
+        transition: .5s ease;
+        
+    }
+    &:hover{
+        &::after{
+            transform: scale(1.05);
+        }
+    }
+}
+
+.bg-icon-mobile{
+    &::after{
+        background-image: url('../svg/icon-mobile.svg');
+        background-size: cover;
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        transition: .5s ease;
+        margin: 10px;
+        
+    }
+    &:hover{
+        &::after{
+            transform: scale(1.05);
+        }
+    }
+}
+
+.icon-investment{
+    &::after{
+        background-image: url('../svg/icon-investimentos.svg');
+        background-size: cover;
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+        transition: .5s ease;
+
+    }
+    &:hover{
+        &::after{
+            transform: scale(1.05);
+        }
+    }
+}
+
+.bg-icon-cash{
+    &::after{
+        background-image: url('../svg/icon-cash.svg');
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        transition: .5s ease;
+        margin: 10px;
+    }
+    &:hover{
+        &::after{
+            transform: scale(1.05);
+        }
+    }
+}
+
+.icon-rendimento{
+    &::after{
+        background-image: url('../svg/icon-rendimento.svg');
+        background-size: cover;
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+        transition: .5s ease;
+    }
+    &:hover{
+        &::after{
+            transform: scale(1.05);
+        }
+    }
+}
+
+.icon-networks{
+    cursor: pointer;
+    transition: .5s ease;
+    max-width: 32px;
+    
+
+    &:hover{
+        transform: scale(1.05);
+        opacity: none;
+    }
+}
+
+.opacity{
+    &:hover{
+    opacity: 1;
+    transform: scale(1.05);
+ }
+}

@@ -1,0 +1,177 @@
+$gap-1: 8px;
+$gap-2: 12px;
+$gap-3: 16px;
+$gap-4: 18px;
+$gap-5: 24px;
+$gap-6: 32px;
+$gap-7: 36px;
+$gap-8: 40px;
+$gap-9: 48px;
+$gap-10: 52px;
+$gap-11: 56px;
+$gap-12: 64px;
+$gap-13: 72px;
+$gap-14: 128px;
+
+.m-8{
+    margin: $gap-1;
+}
+
+.m-12{
+    margin: $gap-2;
+}
+
+.ml-8{
+    margin-left: $gap-1;
+}
+
+.ml-12{
+    margin-left: $gap-2;
+}
+.ml-16{
+    margin-left: $gap-3;
+}
+.ml-18{
+    margin-left: $gap-4;
+}
+
+.ml-64{
+    margin-left: $gap-12;
+}
+
+.ml-72{
+    margin-left: $gap-13;
+}
+
+.ml-124{
+    margin-left: $gap-14;
+}
+
+.mr-8{
+    margin-right: $gap-1;
+}
+
+.mr-12{
+    margin-right: $gap-2;
+}
+
+.mr-16{
+    margin-right: $gap-3;
+}
+
+.mr-24{
+    margin-right: $gap-5;
+}
+
+.mr-32{
+    margin-right: $gap-6;
+}
+
+.mr-36{
+    margin-right: $gap-7;
+}
+
+.mr-40{
+    margin-right: $gap-8;
+}
+
+.mt-8{
+    margin-top: $gap-1;
+}
+
+.mt-12{
+    margin-top: $gap-2;
+}
+
+.mt-16{
+   margin-top: $gap-14;
+}
+
+
+.mt-18{
+    margin-top: $gap-4;
+}
+
+.mb-0{
+    margin-bottom: 0px;
+}
+
+.mb-12{
+    margin-bottom: $gap-2;
+}
+
+.mb-40{
+    margin-bottom: $gap-8;
+}
+
+.my-12{
+    margin-top: $gap-2;
+    margin-bottom: $gap-2;
+}
+
+.my-16{
+    margin-top: $gap-3;
+    margin-bottom: $gap-3;
+}
+
+.pt-16{
+    padding-top: $gap-3;
+}
+
+.pb-16{
+    padding-bottom: $gap-3;
+}
+
+.pb-36{
+    padding-bottom: $gap-7;
+}
+
+.py-12{
+    padding-top: $gap-2;
+    padding-bottom: $gap-2;
+}
+
+.py-16{
+    padding-top: $gap-3;
+    padding-bottom: $gap-3;
+}
+
+.py-24{
+    padding-top: $gap-5;
+    padding-bottom: $gap-5;
+}
+
+.py-52{
+    padding-top: $gap-10;
+    padding-bottom: $gap-10;
+}
+
+.py-72{
+    padding-top: $gap-13;
+    padding-bottom: $gap-13;
+}
+
+.py-128{
+    padding-top: $gap-14;
+    padding-bottom: $gap-14;
+}
+
+.my-12{
+    margin-top: $gap-3;
+    margin-bottom: $gap-3;
+}
+
+.mx-8 {
+    margin-left: $gap-1;
+    margin-right: $gap-1;
+  }
+
+  .mx-12{
+    margin-left: $gap-2;
+    margin-right: $gap-2;
+  }
+
+  .mx-16{
+    margin-left: $gap-3;
+    margin-right: $gap-3;
+  }

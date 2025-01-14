@@ -1,0 +1,62 @@
+a{
+    @include typeface-body(p2, desktop);
+    text-decoration: none;
+    color: $black-normal;
+    transition: .5s ease;
+    cursor: pointer;
+    &:hover{
+        opacity: .7;
+      }
+    
+}
+
+
+.btn{
+    background: linear-gradient(220.94deg, $primary-dark 14.43%, $secondary-light 85.28%);
+    border-radius: 16px;
+    border: none;
+    padding: 12px 32px;
+    cursor: pointer;
+    color: $white-normal;
+    font-weight: bold;
+    transition: .4s ease;
+
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+
+.linkAction{
+    display: inline-block;
+    color: $primary-dark;
+    background-image: url('../svg/icon-arrow.svg');
+    background-repeat: no-repeat;
+    padding: 16px 40px;
+    background-position: 0% 50%;
+    font-size: 19px;
+    font-weight: bolder;
+    position: relative;
+    
+    
+
+    &::after{
+        content: '';
+        position: absolute;
+        display: block;
+
+        background-color: $secondary-light;
+        width: 0%;
+        height: 2px;
+        top: 80%;
+        left: 0;
+        transition: .5s ease;
+
+    }
+    &:hover{
+        padding-left: 64px;
+        background-position: 8px 50%;
+        &::after{
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+
+footer{
+    background: $gray-5;
+    @include responsive(s){
+        
+        flex-direction: column;
+    }
+    /*background: linear-gradient(220.94deg, #F35F1C 14.43%, #FF6D09 85.28%);*/
+}
+
+footer h4{
+    color: $white-normal;
+    font-weight: 300;
+}
+
+
+.color-white{
+    color: $white-normal;
+}
+
+
+.list{
+    list-style: none;
+
+    li{
+        margin-bottom: 12px;
+    }
+
+    a{
+        color: $white-normal;
+    }
+}
+
+.border-top-white{
+    border-top: 1px solid $white-normal;
+}
+
+
